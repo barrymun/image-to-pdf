@@ -856,6 +856,11 @@ ignore@^5.2.0, ignore@^5.2.4:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.4.tgz#a291c0c6178ff1b960befe47fcdec301674a6324"
   integrity sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==
 
+image-ops@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/image-ops/-/image-ops-1.0.7.tgz#516a6832d05a79dcdd5188b2f2d4cb325dc7cc6c"
+  integrity sha512-d7/aLznUh/TOYcgGv+b7FTM5xx/ruNibI69PurtFAjMr/o2NWCLVoWXN+gCrrVFh8xC+QBbDT3DX8p5su4UnNA==
+
 import-fresh@^3.2.1:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/import-fresh/-/import-fresh-3.3.0.tgz#37162c25fcb9ebaa2e6e53d5b4d88ce17d9e0c2b"

@@ -1,0 +1,13 @@
+.preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  
+  padding: 16px;
+}
+
+.preview img {
+  max-width: calc(100% - 32px);
+}
