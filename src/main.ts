@@ -9,6 +9,7 @@ import "assets/base.css";
 import "assets/style.css";
 import "assets/uploader.css";
 import "assets/preview.css";
+import "assets/converter.css";
 
 const dom = document.body as HTMLBodyElement;
 

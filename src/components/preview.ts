@@ -1,14 +1,11 @@
 import van from "vanjs-core";
 
 import { appState } from "utils/state";
+import { previewImageId } from "utils/constants";
 
 const { div, img } = van.tags;
 
 export const Preview = () => {
-  van.derive(() => {
-    // console.log("appState.readerResult.val", appState.readerResult.val);
-  });
-
   return div(
     {
       class: "preview",
@@ -17,6 +14,7 @@ export const Preview = () => {
       div(
         appState.readerResult.val
           ? img({
+              id: previewImageId,
               src: appState.readerResult.val ?? "",
               alt: "Preview",
             })

@@ -1,0 +1,11 @@
+.converter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 16px;
+}
+
+.converter canvas {
+  display: none;
+}
