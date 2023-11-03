@@ -18,7 +18,7 @@ export const Preview = () => {
               src: appState.readerResult.val ?? "",
               alt: "Preview",
             })
-          : div("No image to preview"),
+          : div("Please upload an image to get a preview"),
       ),
   );
 };

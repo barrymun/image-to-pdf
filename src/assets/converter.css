@@ -6,6 +6,10 @@
   padding: 16px;
 }
 
+.converter button:disabled {
+  display: none;
+}
+
 .converter canvas {
   display: none;
 }
