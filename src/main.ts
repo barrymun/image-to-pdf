@@ -5,11 +5,11 @@ import { Converter } from "components/converter";
 import { Preview } from "components/preview";
 import { Uploader } from "components/uploader";
 
-import "assets/base.css";
-import "assets/style.css";
-import "assets/uploader.css";
-import "assets/preview.css";
-import "assets/converter.css";
+import "assets/css/base.css";
+import "assets/css/style.css";
+import "assets/css/uploader.css";
+import "assets/css/preview.css";
+import "assets/css/converter.css";
 
 const dom = document.body as HTMLBodyElement;
 
